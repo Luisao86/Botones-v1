@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.contenedor .boton {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    
+    margin: 0 5px;
+    background:  #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba (0, 0, 0, 0.1);
+    transition: all .4s ease-out;
+    overflow: hidden;
+}
+.contenedor .boton .icono {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all .4s ease-out;
+}
+.contenedor .boton .icono i{
+    font-size: 20px;
+    line-height: 30px;
+}
+.contenedor .boton span {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.contenedor .boton:hover {
+    width: 200px;
+}
+.contenedor .boton:nth-child(1):hover .icono{
+    background: #4267b2;
+}
+.contenedor .boton:nth-child(2):hover .icono{
+    background: #1da1f2;
+}    
+.contenedor .boton:nth-child(3):hover .icono{
+        background: #128c7e;
+}
+.contenedor .boton:nth-child(4):hover .icono{
+            background: #333;
+}
+.contenedor .boton:nth-child(5):hover .icono{
+    background: #e0e;
+}   
+.contenedor .boton:nth-child(6):hover .icono{
+    background: #606;
+}         
+.contenedor .boton:hover .icono i {
+    color: #fff;
+}
+.contenedor .boton:nth-child(1):hover span {
+    color: #4267b2;
+}
+.contenedor .boton:nth-child(2):hover span {
+    color: #1da1f2;
+}
+.contenedor .boton:nth-child(3):hover span {
+    color: #128c7e;
+}
+.contenedor .boton:nth-child(4):hover span {
+    color: #333;
+}
+.contenedor .boton:nth-child(5):hover span {
+    color: #e0e;
+}
+.contenedor .boton:nth-child(6):hover span {
+    color: #606;
+}
